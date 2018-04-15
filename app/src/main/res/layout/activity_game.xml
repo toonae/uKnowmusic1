@@ -48,7 +48,7 @@
         android:layout_marginTop="8dp"
         android:background="@null"
         android:onClick="playSound"
-        android:scaleType="fitStart"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/imvQuestion"
         app:layout_constraintStart_toEndOf="@+id/imvQuestion"
         app:layout_constraintTop_toTopOf="@+id/imvQuestion"
