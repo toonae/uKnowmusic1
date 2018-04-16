@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "กรุณาใส่ชื่อด้วยค่ะ", Toast.LENGTH_SHORT).show();
                 } else {
                     //เปิดหน้า game
-                    Intent starIntent = new Intent(MainActivity.this, GameActivity.class);
+                    Intent starIntent = new Intent(MainActivity.this, homeActivity.class);
                     starIntent.putExtra("Name",nameString);
                     startActivity(starIntent);
                 }
