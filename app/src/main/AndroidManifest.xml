@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".GameActivity" />
         <activity android:name=".homeActivity" />
-        <activity android:name=".game1Activity"></activity>
+        <activity android:name=".game1Activity" />
+        <activity android:name=".game2Activity" />
+        <activity android:name=".game3Activity"></activity>
     </application>
 
 </manifest>
