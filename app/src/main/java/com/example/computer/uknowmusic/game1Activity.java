@@ -21,7 +21,7 @@ public class game1Activity extends AppCompatActivity {
     ImageView questionImageView;
     ImageButton volumnImageButton;
     MediaPlayer mediaPlayer;//สำหรับเล่นเสียง
-    int questionCount = 10; //ตัวแปรเก็บจำนวนข้อคำถาม
+    int questionCount = 30; //ตัวแปรเก็บจำนวนข้อคำถาม
     ArrayList<Integer> qID = new ArrayList<Integer>();//ตัวแปร qId เป็นตัวแปรชนิดอะเรย์แบบสุ่มคำถาม
     String answer;
     int score = 0;
@@ -51,7 +51,7 @@ public class game1Activity extends AppCompatActivity {
 
     private void setQuestion(int qID) { //ใน method ทำหน้าที่กำหนดข้อคำถามและเฉลยในแต่ละข้อ
 
-        if (qID == 1) {
+        if (qID == 21) {
             answer = "อดีตเคยพัง";
             questionImageView.setImageResource(R.drawable.arm);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutarm);
@@ -72,7 +72,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 2) {
+        if (qID == 22) {
             answer = "ฝากฟ้า";
             questionImageView.setImageResource(R.drawable.baovee);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutbaovee);
@@ -93,7 +93,7 @@ public class game1Activity extends AppCompatActivity {
         }
 
 
-        if (qID == 3) {
+        if (qID == 23) {
             answer = "กอดครั้งสุดท้าย";
             questionImageView.setImageResource(R.drawable.ble);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutble);
@@ -114,7 +114,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 4) {
+        if (qID == 24) {
             answer = "คิดถึงแล้วหล่าว";
             questionImageView.setImageResource(R.drawable.jira);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutjira);
@@ -135,7 +135,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 5) {
+        if (qID == 25) {
             answer = "คนมีประวัติ";
             questionImageView.setImageResource(R.drawable.kai);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutkai);
@@ -156,7 +156,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 6) {
+        if (qID == 26) {
             answer = "ซางว่า";
             questionImageView.setImageResource(R.drawable.kik);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutkik);
@@ -177,7 +177,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 7) {
+        if (qID == 27) {
             answer = "กอดจูบลูบคลำ";
             questionImageView.setImageResource(R.drawable.l);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutl);
@@ -198,7 +198,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 8) {
+        if (qID == 28) {
             answer = "หนอนผีเสื้อ";
             questionImageView.setImageResource(R.drawable.miter);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutmiter);
@@ -219,7 +219,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 9) {
+        if (qID == 29) {
             answer = "คำแพง";
             questionImageView.setImageResource(R.drawable.sec);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutsac);
@@ -240,7 +240,7 @@ public class game1Activity extends AppCompatActivity {
 
         }
 
-        if (qID == 10) {
+        if (qID == 30) {
             answer = "แผ่นดินไหวในใจอ้าย";
             questionImageView.setImageResource(R.drawable.ta);
             mediaPlayer = MediaPlayer.create(this, R.raw.cutta);
